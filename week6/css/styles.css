@@ -1,0 +1,121 @@
+.form-container {
+    background: #000000;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"] {
+    width: 100%;
+    padding: 10px 8px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button-group {
+    display: flex;
+    gap: 8px;
+}
+
+.form-container button[type="submit"] {
+    flex: 1;
+    background: #035238;
+    color: #fff;
+    border: none;
+    padding: 12px 0;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container button[type="submit"]:hover {
+    background: #164935;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    background: #fff;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"] {
+    width: 100%;
+    padding: 10px 8px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form-container input[type="submit"] {
+    width: 100%;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.form-container input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+.btn-link {
+    display: inline-block;
+    margin-bottom: 18px;
+    padding: 10px 24px;
+    background: #035238;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background 0.2s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+    cursor: pointer;
+}
+.btn-link:hover {
+    background: #164935;
+    color: #fff;
+}
